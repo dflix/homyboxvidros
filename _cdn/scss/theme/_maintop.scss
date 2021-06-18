@@ -1,0 +1,61 @@
+.main_top{
+    background-image: url("../../assets/image/maquina.jpg");
+    background-position: center 65%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 526px;
+    display: flex;
+
+}
+.main_top_text{
+    padding: 30px;
+    background-color: rgba(255,255,255,0.45);
+    text-transform: uppercase;
+    color: #000;
+    margin-top: 10%;
+    font-size: 2.5em;
+    font-weight: 200;
+}
+
+.vetor{
+    text-align: center;
+    font-size: 2em;
+    color:#006699;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 20;
+    right: 20;
+    width: 50px;
+    z-index: 100;
+
+}
+
+.banner{
+    font-size: 1em;
+}
+
+@media (max-width: 789px){
+    .banner{
+        font-size:0.8em;
+    }
+    .topinho{
+        display: none;
+    }
+}
+
+@media (max-width: 555px){
+    .banner{
+        font-size:0.6em;
+    }
+    .main_top_text{
+        padding-top: 150px;
+    }
+    .topinho{
+        display: none;
+    }
+}
+

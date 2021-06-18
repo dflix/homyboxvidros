@@ -1,0 +1,9 @@
+@import "variables";
+
+$theme-colors: (
+  "front": $front-color
+  
+);
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
